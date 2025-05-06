@@ -1,17 +1,30 @@
 *{
     padding: 0;
     margin: 0;
-   /* border: 1px solid red; */
+
+ 
+  
+}
+ body{
+ overflow-x: hidden;
 }
 nav{
-    background-color: #0061f2;
-    position: fixed;
-    top: 0;
+    background-image: linear-gradient(135deg, #055de1);
+  
 }
+nav{
+    background-color: black !important;
+  transition: background-color 0.3s ease;
+    background-color: #091d3a;
+}
+
 .sect1{
-    height: 70vh;
-    padding: 20px;
+    background-image: linear-gradient(135deg, #055de1, rgba(105, 0, 199, .8));
+   
 }
+    /* height: 70vh; */
+  
+
 .unique{
     color: #0061f2;
     width: 90px;
@@ -24,8 +37,8 @@ nav{
 }
 
 .drop1{
-    /* width: 50vw;
-    height: 40vh; */
+     width: 50vw;
+    height: 40vh; 
 }
 .drop1 h6{
     color: #0061f2;
@@ -55,9 +68,12 @@ nav{
     padding: 20px; 
 }
 .img-fluit{
-    width: 350px;
-    height: 300px;
+    /* width: 350px;
+    height: 300px; */
 
+}
+footer{
+    overflow-y: hidden;
 }
 footer h4{
     font-size: small;
@@ -91,15 +107,18 @@ footer h1{
 .button3 button{
     color: aliceblue;
     background-color: #0061f2; 
+    border: none;
     width: 210px;
     height: 45px;
     border-radius: 30px;
 }
 .tout{
    gap: 30px;
+   overflow-y: hidden;
 }
 .tous{
     gap: 50px;
+ 
 }
 .hr{
     width: 70%;
