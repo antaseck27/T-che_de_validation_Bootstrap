@@ -37,8 +37,8 @@ nav{
 }
 
 .drop1{
-     width: 50vw;
-    height: 40vh; 
+     /* width: 50vw;
+    height: 40vh;  */
 }
 .drop1 h6{
     color: #0061f2;
@@ -113,11 +113,11 @@ footer h1{
     border-radius: 30px;
 }
 .tout{
-   gap: 30px;
+   /* gap: 30px; */
    overflow-y: hidden;
 }
 .tous{
-    gap: 50px;
+    /* gap: 50px; */
  
 }
 .hr{
